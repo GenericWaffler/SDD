@@ -1,0 +1,5 @@
+searchtext = "my name is"
+i = name.find(searchtext)
+x = i+len(searchtext)
+namefinal = name[x:].strip()
+print namefinal

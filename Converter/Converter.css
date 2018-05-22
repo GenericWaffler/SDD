@@ -1,0 +1,25 @@
+/* CSS Document */
+
+.con{
+display : inline-block
+}
+.class{
+	margin-left: 20px;
+	display : inline-block
+}
+.bodybox{
+	border: 10px solid rgba(255,192,9,1.00) !important;
+	background-color:rgba(100,100,100,.6) !important;
+	margin-left:300px !important;
+	margin-right:300px !important;
+	margin-top:300px !important;
+}
+body{
+	background-image: url(Images/banner3blank.png);
+	background-repeat:no-repeat;
+	background-size:  105%;
+}
+p,h1{
+	margin-left: 20px !important;
+	margin-right: 20px !important;
+}

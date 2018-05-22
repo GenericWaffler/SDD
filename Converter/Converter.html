@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Converter</title>
+	<script type ="text/javascript" src="Converter.js"> </script>
+	<link href="Converter.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="bodybox">
+<h1>Converter</h1>
+	<form>
+  <p >
+    <label for="amount">Enter amount:</label>
+    <input type="text" id="amount" value="">
+    <select id="selection">
+      <option value="USD">USD </option>
+      <option value="EUR">EUR </option>
+      <option value="AUD">AUD </option>
+	  <option value="CM">CM </option>
+      <option value="INCH">INCH </option>
+	<option value="KM">KM </option>
+		<option value="MILE">MILE </option>
+
+    </select>
+    <select id="selecttwo">
+      <option value="USD">USD </option>
+      <option value="EUR">EUR </option>
+      <option value="AUD">AUD </option>
+	  <option value="CM">CM </option>
+	  <option value="INCH">INCH </option>
+		<option value="KM">KM </option>
+		<option value="MILE">MILE </option>
+    </select>
+    <input type="text" id="result" value="">
+  </p>
+  <p>
+    <input type="button" value="Calculate" onclick="calculate();">
+    <input type="reset" value="Clear">
+  </p>
+</form>
+	</div>
+</body>
+</html>
